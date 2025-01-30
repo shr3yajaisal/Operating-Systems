@@ -1,1 +1,42 @@
+Uname -r 
+Sudo su
+Sudo apt-get update
+Sudo apt-get upgrade    // ……………wait
+ Apt-get update
+apt-get install man
+apt install build-essential libncurses-dev libssl-dev libelf-dev bison flex -y
+Unminimize 
+Man strace    //q
+Q
+Vim 1.c
+I 
+m 1.c
+I
+#include<stdio.h>
+
+
+int main() {
+        printf("Ho gaya!");
+
+
+        return 0;
+
+
+}
+press escape 
+:wq (enter)
+Cat 1.c
+ wget -P ~/ htps://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.9.tar.xz
+ tar -xvf ~/linux-6.12.9.tar.xz -C ~/
+Enter cd using ~cd
+Cd linux-6.12.9
+ mkdir test_call
+Vim  test_call/test_call.c
+
+
+    #include<linux/kernel.h>
+   #include<linux/syscalls.h>
+SYSCALL_DEFINE0(tst_call){
+                printk(“this is a sample test ”)   // kernel level printing statement
+    Return 0: }Escape -> // now force quit  , -> :q!
 
