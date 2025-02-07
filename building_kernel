@@ -20,9 +20,8 @@ int main() {
 
 
         return 0;
-
-
 }
+
 press escape 
 :wq (enter)
 Cat 1.c
@@ -34,8 +33,8 @@ Cd linux-6.12.9
 Vim  test_call/test_call.c
 
 
-    #include<linux/kernel.h>
-   #include<linux/syscalls.h>
+#include<linux/kernel.h>
+#include<linux/syscalls.h>
 SYSCALL_DEFINE0(tst_call){
                 printk(“this is a sample test ”)   // kernel level printing statement
     Return 0: }Escape -> // now force quit  , -> :q!
